@@ -19,6 +19,9 @@ services:
         soft: -1
         hard: -1
     volumes:
-      - ./manticore:/var/lib/manticore
-      - ./manticore:/var/log/manticore
+      - manticore:/var/lib/manticore
+      - manticore:/var/log/manticore
 #      - ./manticore.conf:/etc/manticoresearch/manticore.conf # uncomment if you use a custom config
+
+volumes:
+  manticore:
