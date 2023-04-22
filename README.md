@@ -2,7 +2,8 @@
 
 Работать в консоли cmd или через консоль windows git.
 Где-то тут: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git Git CMD
-Выбрать папку для проекта
+
+Создать / выбрать папку для проекта
 
 например `cd projects/my-project`
 
@@ -11,6 +12,8 @@
 `git clone https://github.com/audetv/manticore-test`
 
 Теперь запустить мантикроу можно так:
+
+`cd manticore-test`
 
 `docker compose up -d`
 
