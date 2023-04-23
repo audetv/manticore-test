@@ -21,4 +21,5 @@ services:
     volumes:
       - ./manticore:/var/lib/manticore
       - ./manticore:/var/log/manticore
-#      - ./manticore.conf:/etc/manticoresearch/manticore.conf # uncomment if you use a custom config
+      - ./geomatrix/manticore.conf:/etc/manticoresearch/manticore.conf
+      - ./geomatrix/geomatrix_marks.csv:/geomatrix/geomatrix_marks.csv
